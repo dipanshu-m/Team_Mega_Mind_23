@@ -15,6 +15,7 @@ app.use(express.json());
 app.use('/', express.static('public'));
 // app.use('/scripts/', express.static('./views/scripts'));
 app.use('/styles/', express.static('styles'));
+app.use('/script/', express.static('scripts'));
 
 // start server
 const port = process.env.PORT || 5001;
