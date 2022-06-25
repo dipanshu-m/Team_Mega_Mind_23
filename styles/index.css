@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*  */
+
 :root {
     font-family: 'Inter', 'Josefin Sans' sans-serif;
     padding: 0;
@@ -39,14 +40,33 @@ header {
     margin:0px 10px;
     height: max-content;
 }
+/* side */
+.card {
+    display: flex;
+}
+.side {
+    width: 20%;
+    background-color: aqua;
+}
+
+/*  */
+.filters {
+    right: 0%;
+}
 
 /* InCraftWorks.com */
 .imgTitleLogo {
     height: 2rem;
     left: 100px;
 }
-
-
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.productdisplay {
+    width: 200px;
+    height: 200px;
+}
 
 /* InCraftWorks.com */
 
