@@ -3,15 +3,36 @@
 /*  */
 
 :root {
-    font-family: 'Inter', 'Josefin Sans' sans-serif;
+    font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
     box-sizing: border-box;
+    ---font-white: #fff;
 }
 
 /* Page Top */
 
+.c {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.c:hover {
+    box-shadow: 0px 5px 6px rgba(250,175,87, 0.616);
+}
+.no-background {
+    background: transparent;
+}
+
+.no-border {
+    border: none;
+}
+.productdisplay {
+    margin: auto;
+    margin-bottom: 80px;
+}
 
 /* Rectangle 3 */
 header {
@@ -36,37 +57,66 @@ header {
 }
 
 
-.nav> * {
-    margin:0px 10px;
-    height: max-content;
+.nav>* {
+    margin: 0px 10px;
+    overflow: hidden;
+
 }
+
+.imgnav {
+    height: 50px;
+    background: transparent;
+    border: none;
+}
+
+
 /* side */
 .card {
     display: flex;
+    margin-left: 2%;
 }
+
 .side {
     width: 20%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 /*  */
-.filters {
-    right: 0%;
-}
 
 /* InCraftWorks.com */
 .imgTitleLogo {
     height: 2rem;
     left: 100px;
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .productdisplay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 200px;
+
 }
+
+.filterbtn {
+    /* Rectangle 6 */
+    width: 173px;
+    height: 47px;
+    float: right;
+    border: none;
+    background: #001E4B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px 26px 26px 28px;
+    color: var(---font-white);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
 
 /* InCraftWorks.com */
 
